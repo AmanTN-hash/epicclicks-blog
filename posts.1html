@@ -19,7 +19,7 @@
       <h2>Viral Video 1</h2>
       <p>Check out this amazing viral video! Don't forget to comment and share.</p>
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/live/aL5gyLJY1Wk?si=Z6g-0K1l4FSNA_ep/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
       </div>
     </article>
   </main>
