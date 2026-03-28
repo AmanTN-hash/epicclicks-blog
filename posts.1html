@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viral Video 1 - EpicClicks</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>EpicClicks</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Viral Video 1</h2>
+      <p>Check out this amazing viral video! Don't forget to comment and share.</p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 EpicClicks. All rights reserved.</p>
+  </footer>
+</body>
+</html>
