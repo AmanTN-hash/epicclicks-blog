@@ -8,3 +8,22 @@ index.html
     <h2>Loading CMS...</h2>
   </body>
 </html>
+config.yml
+backend:
+  name: github
+  repo: yourusername/epicclicks-blog  # <-- Replace with your GitHub username/repo
+  branch: main
+
+media_folder: "images/uploads"    # Upload images here
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "YouTube Video ID", name: "video_id", widget: "string" }
